@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <!-- Nav bar -->
+    <section >
+        <nav class="nav-bar">
+            <div class="nav-left">
+                <h1 class="header">MeFamilia.</h1>
+            </div>
+            <!-- <a href="#" class="toggle-button">
+                <span class="bar">dd</span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a> -->
+            <div class="nav-right">
+                <ul class="nav-ul">
+                    <li class="nav-li" >Home</li>
+                    <li class="nav-li">Pages</li>
+                    <li class="nav-li">Portfolio</li>
+                    <li class="nav-li">Blog</li>
+                    <li class="nav-li">Shop</li>
+                    <li class="nav-li">Lifestyle</li>
+                    <img src="./img/Vector (1).png" alt="moon" id="moon" light>
+                    <img src="./img/icons8-sun-24.png" alt="sun" class="sun" sun id="sun">
+                </ul>
+            
+                <button class="hamburger ">
+                    <div class="bar"></div>
+                </button>
+            </div>
+        </nav>
+        <ul class="mobile-ul">
+            <img src="./img/Vector (1).png" alt="moon" id="moon" mobile_light>
+            <img src="./img/icons8-sun-24.png" alt="sun" class="sun" mobile_sun id="sun">
+            <li class="mobile-li" >Home</li>
+            <li class="mobile-li">Pages</li>
+            <li class="mobile-li">Portfolio</li>
+            <li class="mobile-li">Blog</li>
+            <li class="mobile-li">Shop</li>
+            <li class="mobile-li">Lifestyle</li>
+        </ul>
+        
+    </section>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <!-- left bar -->
+        <div class="hero-box">
+            <div class="spacing-width">
+                <div class="left-bar">
+    
+                    <div class="search-border">
+                        <div class="search">
+                            <input type="search" name="search" placeholder="Search">
+                            <span><img src="./img/icons8-search-24.png" alt="search" id="search"></span>
+                        </div>
+                    </div>
+    
+                    <div class="categories-border">
+                        <div class="categories">
+                            <div class="title">
+                                <h1>Categories</h1>
+                            </div>
+                            <div class="item">
+                                <h5>Culture</h5>
+                                <h5>Creativity</h5>
+                                <h5>Food</h5>
+                                <h5>Travel</h5>
+                                <h5>Humor</h5>
+                                <h5>Music</h5>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="post-border">
+                        <div class="post">
+                            <h1 class="top-post">Top Posts</h1>
+    
+                        <!-- <ol class="post-all-items">
+                            <li class="post-item">
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2><br>
+                                <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2> 
+                            </li>
+                            <li class="post-item">
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2><br>
+                                <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2> 
+                            </li><li class="post-item">
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2><br>
+                                <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2> 
+                            </li><li class="post-item">
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2><br>
+                                <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2> 
+                            </li><li class="post-item">
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2><br>
+                                <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2> 
+                            </li>
+                        </ol> -->
+                        
+                        <div class="post-all-items">
+                            <div class="post-item">
+                                <h1>1</h1>
+                                <div class="post-column" style="padding-left: 10px;">
+                                    <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                    <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2>
+                                </div>
+                            </div>
+                            <div class="post-item">
+                                <h1>2</h1>
+                                <div class="post-column">
+                                    <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                    <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2>
+                                </div>
+                            </div><div class="post-item">
+                                <h1>3</h1>
+                                <div class="post-column">
+                                    <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                    <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2>
+                                </div>
+                            </div><div class="post-item">
+                                <h1>4</h1>
+                                <div class="post-column">
+                                    <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                    <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2>
+                                </div>
+                            </div><div class="post-item">
+                                <h1>5</h1>
+                                <div class="post-column">
+                                    <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                    <h2 class="grey">FOOD TRAVEL - NOV 17, 2022</h2>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+    
+                    <div class="image-border">
+                        <div class="image">
+                            <h1>IMAGES</h1>
+                            <div class="image-all">
+                                <img src="./img/Frame 11.png" alt="" class="image-item">
+                                <img src="./img/Frame 13.png" alt="" class="image-item">
+                                <img src="./img/Frame 14.png" alt="" class="image-item">
+                                <img src="./img/Frame 15.png" alt="" class="image-item">
+                                <img src="./img/Frame 16.png" alt="" class="image-item">
+                                <img src="./img/Frame 17.png" alt="" class="image-item">
+                            </div>
+                            <p>view all</p>
+                        </div>
+                    </div>
+               <!-- End  -->
+                </div>
+                
+                <!-- right bar -->
+                <div class="right-bar">
+                    <div class="spacing-width-r">
+        
+                    <div class="image-right">
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2" id="cont">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2" id="cont">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+
+                        <div class="containers">
+                            
+                            <div class="content-1"></div>
+                            <div class="content-2">
+                                <h4 class="grey">FOOD TRAVEL - NOV 17, 2022</h4>
+                                <h2>Lörem ipsum yr orat och beledes fadohogt lögalåktig.</h2>
+                                <p>Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.Lörem ipsum yr orat och beledes fadohogt lögalåktig.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </div>
+                </div>
+        
+    
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <div class="num-border">
+        <div class="num">
+            <h2>1</h2>
+            <h2>2</h2>
+            <h2>3</h2>
+            <h2>4</h2>
+            <h2>5</h2> 
+        </div>
+    </div>
+    
+
+    <section>
+        <div class="footer-border">
+            <div class="footer">
+
+                <div class="footer-item" id="footer">
+                    <h1 class="header">ViewMe.</h1>
+                    <div class="footer-content">
+                        <p style="padding-top: 30px;">@2022 prog_bio_</p>
+                    </div>
+                </div>
+
+                <div class="footer-item" id="footer">
+                    <h1 class="header">About...</h1>
+                    <div class="footer-content">
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                    </div>
+                </div>
+
+                <div class="footer-item" id="footer">
+                    <h1 class="header">Product</h1>
+                    <div class="footer-content">
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                        <h5><a href="">Lorem ipsum dolor</a></h5>
+                    </div>
+                </div>
+                
+                <div class="footer-item" id="footer">
+                    <h1 class="header">Contact us</h1>
+                    <div class="footer-content">
+                        <p>zeusifeanyi058@gmail.com</p>
+                        <p>+234 812 974 1530</p>
+                        <div class="icons">
+                            <a href="https://instagram.com/bio_enugu" target="_blank"></a><img src="./img/icons8-instagram-60.png" alt="insta">
+                            <a href="https://www.linkedin.com/in/ifeanyi-okafor-b26bb6244" target="_blank"><img src="./img/icons8-facebook-f-50.png" alt="fb"></a>
+                            <a href="https://twitter.com/prog_BIO_" target="_blank"><img src="./img/icons8-twitter-60.png" alt="twitter"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
